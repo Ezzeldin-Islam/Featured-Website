@@ -1,0 +1,46 @@
+* images with 1920 * 1080
+
+* notes to develope the website
+1 - visite headroom.js library to controle the header nav => done
+2 - develope the web more advanced => done
+3 - enhance the js file and make a clean code => done
+4 - create more functions => done
+5 - order the lines in files => done
+
+1. تحسينات بصرية بسيطة
+
+إضافة تأثير hover على الصور في الـ gallery (تكبير بسيط أو border ملون) => done
+إضافة smooth scroll animation للأقسام => done
+تأثيرات fade-in للعناصر عند السكرول => not important
+
+2. وظائف JavaScript بسيطة
+
+عداد أرقام متحرك في قسم الـ features (مثلاً: عدد المشاريع، العملاء، الخبرة) => done
+زر "Back to Top" يظهر عند السكرول لأسفل => done => done
+تأثير typing animation للنص في الـ landing page => done
+
+3. تحسينات تفاعلية
+
+lightbox بسيط لعرض صور الـ gallery بحجم أكبر عند الضغط عليها => done
+إضافة زر "Read More" للنصوص الطويلة في الـ timeline
+form validation بسيط للـ contact form (التحقق من الإيميل، الحقول الفارغة)
+
+4. إضافات وظيفية
+
+Dark Mode toggle بجانب إعدادات الألوان الموجودة
+إضافة قسم FAQ بسيط مع accordion effect
+progress bar يوضح نسبة القراءة في الصفحة => done
+
+5. تحسينات الأداء
+
+Lazy loading للصور
+إضافة loading spinner عند تحميل الصفحة
+
+الأسهل للبدء بها:
+
+زر Back to Top - سهل جداً
+تحسين hover effects - CSS بسيط
+Form validation - JavaScript أساسي
+عداد الأرقام المتحرك - ممتع ومفيد للتعلم
+
+أي فكرة من دول تحب تبدأ بيها؟ ممكن أساعدك في الكود 😊
