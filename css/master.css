@@ -204,6 +204,7 @@ header .header-links.active {
     height: fit-content;
     border-radius: 28%;
     cursor: pointer;
+    z-index: 10;
 
     i {
       font-size: 20px;

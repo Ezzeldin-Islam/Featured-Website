@@ -95,6 +95,20 @@ toggleBtn.addEventListener("click", function () {
   document.querySelector(".toggle-settings i").classList.toggle("fa-spin");
 });
 
+document.addEventListener("click", (e) => {
+  if (setingsOptions.classList.contains("open")) {
+    if (
+      !setingsOptions.contains(e.target) &&
+      !e.target.matches(
+        ".toggle-settings, .settings-container, .settings-container *",
+      )
+    ) {
+      setingsOptions.classList.remove("open");
+      document.querySelector(".toggle-settings i").classList.remove("fa-spin");
+    }
+  }
+});
+
 //* start color logic
 let color = localStorage.getItem("color");
 
